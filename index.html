@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desculpa, Meu Amor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="audio" loop>
+  <source src="musica.mp3" type="audio/mpeg" />
+  Seu navegador não suporta áudio.
+</audio>
+
+
+  <div class="overlay">
+    <h1>Desculpa, Meu Amor</h1>
+    <p class="texto-inicial">
+      Se eu pudesse voltar no tempo, voltaria só pra ver o teu sorriso de novo.<br>
+      Eu errei, eu falhei, mas o que eu sinto por você nunca mudou.<br>
+      Você é a mulher da minha vida... e eu daria tudo pelo seu perdão.
+    </p>
+
+    <button onclick="mostrarFrase()">Ver mais</button>
+    <p id="frase-extra"></p>
+
+    <button class="botao-final" onclick="mostrarMensagemFinal()">Quero você de volta ❤️</button>
+    <p id="mensagem-final"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
